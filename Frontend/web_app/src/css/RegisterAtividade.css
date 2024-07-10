@@ -1,0 +1,60 @@
+
+.add-atividade {
+    margin-top: 180px;
+    margin-right: 50px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    width: 300px;
+    height: 60%;
+}
+
+.add-atividade form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex;
+}
+
+.add-atividade label {    
+    font-weight:600;
+    font-size: 16px;
+    color: #333;
+}
+
+.add-atividade textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+
+.add-atividade select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 6px;
+}
+
+.add-atividade button {
+    margin-top: 8px;
+    padding: 13px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #45a049;
+}
+
+.add-atividade h2 {
+    margin-top: -5px;
+    margin-bottom: 10px;
+    font-size: 23px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+}

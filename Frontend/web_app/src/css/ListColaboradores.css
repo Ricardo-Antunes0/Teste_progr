@@ -1,0 +1,77 @@
+
+.list-colaboradores-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 105px;
+}
+
+.list-colaboradores-container .filter-container {
+    width: 150px; 
+    padding: 10px; 
+    margin-top: 150px;
+    margin-left: 15px;
+    background-color: #f9f9f9; 
+    border: 1px solid #ccc;
+    margin-right: 20px;
+    border-radius: 12px;
+}
+
+
+.list-colaboradores-container .filter-container select {
+    width: calc(100% - 12px);
+    padding: 4px; 
+    margin-top: 5px; 
+    margin-bottom: 10px; 
+}
+
+.list-colaboradores-container .filter-container label{
+    display: block; 
+    margin-bottom: 0px;
+}
+
+.list-colaboradores-container .filter-container label:first-child {
+    font-weight: bold; 
+    font-size: 16px; 
+    display: block; 
+    margin-bottom: 10px;
+}
+
+.list-colaboradores-container .table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.list-colaboradores-container .table-container table {
+    width: 100%; 
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+
+
+.list-colaboradores-container table th, table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.list-colaboradores-container table th {
+    background-color: #f9f9f9;
+    color: #1e1e1e;
+}
+.list-colaboradores-container h2 {
+    padding-top: 20px;
+    text-align: center; 
+}
+
+.list-colaboradores-container .pagination {
+    display: flex;
+    justify-content: flex-end; 
+    margin-top: 10px;
+}
+
+.list-colaboradores-container .pagination button {
+    margin-left: 5px;
+}

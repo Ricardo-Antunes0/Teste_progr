@@ -1,0 +1,52 @@
+
+.add-colaborador {
+    margin-top: 150px;
+    margin-right: 50px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    width: 300px;
+    height: 66%;
+}
+
+.add-colaborador form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex;
+}
+
+.add-colaborador label {    
+    font-weight:500;
+    font-size: 15px;
+    color: #333;
+}
+
+.add-colaborador input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 4px;
+}
+
+.add-colaborador button {
+    margin-top: 8px;
+    padding: 11px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #45a049;
+}
+
+.add-colaborador h2 {
+    margin-top: -5px;
+    margin-bottom: 6px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    text-align: center;
+}
